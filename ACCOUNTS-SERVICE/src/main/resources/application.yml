@@ -1,0 +1,20 @@
+server:
+ address: localhost
+ port: 1993
+
+spring:
+  application:
+    name: ACCOUNTS-SERVICE
+  data:
+    mongodb:
+      database: admin
+      host: localhost
+      port: 27017
+      username: admin
+      password: admin
+    
+eureka:
+ client:
+   registerWithEureka: true
+   fetchRegistry: true
+   
