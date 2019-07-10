@@ -1,0 +1,12 @@
+server:
+  address: localhost
+  port: 1992 
+
+eureka:
+  client:
+    allow-redirects: false
+    register-with-eureka: true
+    
+spring:
+  application:
+    name: EUREKA-CLIENT
